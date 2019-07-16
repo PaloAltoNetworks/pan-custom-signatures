@@ -3,8 +3,8 @@
 # unique snippet name
 name: Detect_FTP_get_cmd
 # label used for menu selection
-label: Detect Active FTP custom signature (Custome Thread ID 41063)
-description: This skillet adds HTTP Status Codes to Custom Signatures
+label: Detect FTP get command custom signature (Custome Thread ID 41063)
+description: This skillet adds detection of the FTP get command to Custom Signatures
 
 # type of device configuration
 # common types are panorama, panos, and template
