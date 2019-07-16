@@ -1,4 +1,4 @@
-# HTTPStatus Skillet
+# Custom Vulnerability Signatures Skillet
 
 This skillet adds a collection of custom vulnerabilit signatures:
 * HTTP Response Codes (Thread ID 41000 - 59)
