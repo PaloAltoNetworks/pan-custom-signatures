@@ -1,4 +1,4 @@
-  <entry name="41063">
+  <entry name="41062">
     <signature>
       <standard>
         <entry name="ftp-get-cmd">
@@ -37,4 +37,3 @@
       <client>yes</client>
     </affected-host>
   </entry>
-</vulnerability-threat>
