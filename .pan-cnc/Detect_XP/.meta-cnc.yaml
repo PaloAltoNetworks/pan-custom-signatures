@@ -1,0 +1,41 @@
+# skillet preamble information used by panhandler
+# ---------------------------------------------------------------------
+# unique snippet name
+name: XPUserAgentDetection
+# label used for menu selection
+label: XPUserAgentDetection
+description: This skillet adds the Windows XP user-agent string to Custom Signatures (Thread ID 41060)
+
+# type of device configuration
+# common types are panorama, panos, and template
+# https://github.com/PaloAltoNetworks/panhandler/blob/develop/docs/metadata_configuration.rst
+type: panos
+# preload static or default-based templates
+extends:
+
+# grouping of like snippets for dynamic menu creation in panhandler
+labels:
+  collection:
+    - Custom Vulnerability Signatures
+
+# ---------------------------------------------------------------------
+# end of preamble section
+
+variables:
+  # This Skillet installs a custom threat signature that alerts on the XP
+  # user-agent string. It does so via examining the http-req-headers. 
+  # There are no variables in this skillet.
+  # This skillet matches on the following user-agent string:
+  # User-Agent:.+Windows NT 5\.[12]|User-Agent:.+Windows XP
+
+
+# snippets section
+# ---------------------------------------------------------------------
+# snippets used for api configuration including xpath and element as file name
+# files will load in the order listed
+snippets:
+  - name: XPUserAgentDetection
+    xpath: /config/shared/threats/vulnerability
+    file: xpuseragent.xml
+# ---------------------------------------------------------------------
+# end of snippets section

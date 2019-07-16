@@ -1,0 +1,1980 @@
+<entry name="41000">
+  <signature>
+    <standard>
+      <entry name="HTTP-100">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>100</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-100</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41001">
+  <signature>
+    <standard>
+      <entry name="HTTP-101">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>101</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-101</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41002">
+  <signature>
+    <standard>
+      <entry name="HTTP-102">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>102</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-102</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41003">
+  <signature>
+    <standard>
+      <entry name="HTTP-200">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>200</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-200</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41004">
+  <signature>
+    <standard>
+      <entry name="HTTP-201">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>201</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-201</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41005">
+  <signature>
+    <standard>
+      <entry name="HTTP-202">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>202</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-202</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41006">
+  <signature>
+    <standard>
+      <entry name="HTTP-203">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>203</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-203</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41007">
+  <signature>
+    <standard>
+      <entry name="HTTP-204">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>204</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-204</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41008">
+  <signature>
+    <standard>
+      <entry name="HTTP-205">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>205</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-205</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41009">
+  <signature>
+    <standard>
+      <entry name="HTTP-206">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>206</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-206</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41010">
+  <signature>
+    <standard>
+      <entry name="HTTP-207">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>207</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-207</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41011">
+  <signature>
+    <standard>
+      <entry name="HTTP-208">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>208</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-208</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41012">
+  <signature>
+    <standard>
+      <entry name="HTTP-226">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>226</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-226</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41013">
+  <signature>
+    <standard>
+      <entry name="HTTP-300">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>300</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-300</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41014">
+  <signature>
+    <standard>
+      <entry name="HTTP-301">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>301</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-301</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41015">
+  <signature>
+    <standard>
+      <entry name="HTTP-302">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>302</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-302</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41016">
+  <signature>
+    <standard>
+      <entry name="HTTP-303">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>303</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-303</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41017">
+  <signature>
+    <standard>
+      <entry name="HTTP-304">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>304</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-304</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41018">
+  <signature>
+    <standard>
+      <entry name="HTTP-305">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>305</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-305</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41019">
+  <signature>
+    <standard>
+      <entry name="HTTP-306">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>306</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-306</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41020">
+  <signature>
+    <standard>
+      <entry name="HTTP-307">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>307</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-307</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41021">
+  <signature>
+    <standard>
+      <entry name="HTTP-308">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>308</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-308</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41022">
+  <signature>
+    <standard>
+      <entry name="HTTP-400">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>400</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-400</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41023">
+  <signature>
+    <standard>
+      <entry name="HTTP-401">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>401</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-401</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41024">
+  <signature>
+    <standard>
+      <entry name="HTTP-402">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>402</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-402</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41025">
+  <signature>
+    <standard>
+      <entry name="HTTP-403">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>403</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-403</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41026">
+  <signature>
+    <standard>
+      <entry name="HTTP-404">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>404</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-404</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41027">
+  <signature>
+    <standard>
+      <entry name="HTTP-405">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>405</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-405</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41028">
+  <signature>
+    <standard>
+      <entry name="HTTP-406">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>406</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-406</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41029">
+  <signature>
+    <standard>
+      <entry name="HTTP-407">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>407</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-407</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41030">
+  <signature>
+    <standard>
+      <entry name="HTTP-408">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>408</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-408</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41031">
+  <signature>
+    <standard>
+      <entry name="HTTP-409">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>409</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-409</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41032">
+  <signature>
+    <standard>
+      <entry name="HTTP-410">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>410</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-410</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41033">
+  <signature>
+    <standard>
+      <entry name="HTTP-411">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>411</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-411</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41034">
+  <signature>
+    <standard>
+      <entry name="HTTP-412">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>412</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-412</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41035">
+  <signature>
+    <standard>
+      <entry name="HTTP-413">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>413</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-413</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41036">
+  <signature>
+    <standard>
+      <entry name="HTTP-414">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>414</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-414</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41037">
+  <signature>
+    <standard>
+      <entry name="HTTP-415">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>415</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-415</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41038">
+  <signature>
+    <standard>
+      <entry name="HTTP-416">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>416</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-416</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41039">
+  <signature>
+    <standard>
+      <entry name="HTTP-417">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>417</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-417</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41040">
+  <signature>
+    <standard>
+      <entry name="HTTP-421">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>421</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-421</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41041">
+  <signature>
+    <standard>
+      <entry name="HTTP-422">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>422</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-422</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41042">
+  <signature>
+    <standard>
+      <entry name="HTTP-423">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>423</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-423</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41043">
+  <signature>
+    <standard>
+      <entry name="HTTP-424">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>424</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-424</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41044">
+  <signature>
+    <standard>
+      <entry name="HTTP-426">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>426</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-426</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41045">
+  <signature>
+    <standard>
+      <entry name="HTTP-428">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>428</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-428</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41046">
+  <signature>
+    <standard>
+      <entry name="HTTP-429">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>429</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-429</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41047">
+  <signature>
+    <standard>
+      <entry name="HTTP-431">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>431</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-431</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41048">
+  <signature>
+    <standard>
+      <entry name="HTTP-451">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>451</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-451</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41049">
+  <signature>
+    <standard>
+      <entry name="HTTP-500">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>500</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-500</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41050">
+  <signature>
+    <standard>
+      <entry name="HTTP-501">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>501</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-501</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41051">
+  <signature>
+    <standard>
+      <entry name="HTTP-502">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>502</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-502</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41052">
+  <signature>
+    <standard>
+      <entry name="HTTP-503">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>503</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-503</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41053">
+  <signature>
+    <standard>
+      <entry name="HTTP-504">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>504</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-504</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41054">
+  <signature>
+    <standard>
+      <entry name="HTTP-505">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>505</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-505</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41055">
+  <signature>
+    <standard>
+      <entry name="HTTP-506">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>506</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-506</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41056">
+  <signature>
+    <standard>
+      <entry name="HTTP-507">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>507</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-507</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41057">
+  <signature>
+    <standard>
+      <entry name="HTTP-508">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>508</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-508</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41058">
+  <signature>
+    <standard>
+      <entry name="HTTP-510">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>510</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-510</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>
+<entry name="41059">
+  <signature>
+    <standard>
+      <entry name="HTTP-511">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>511</value>
+                    <context>http-rsp-code</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>yes</order-free>
+        <scope>session</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>HTTP-511</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+</entry>

@@ -1,0 +1,38 @@
+ <entry name="41060">
+  <signature>
+    <standard>
+      <entry name="winxp-useragent">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <pattern-match>
+                    <pattern>User-Agent:.+Windows NT 5\.[12]|User-Agent:.+Windows XP</pattern>
+                    <context>http-req-headers</context>
+                    <negate>no</negate>
+                  </pattern-match>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>no</order-free>
+        <scope>protocol-data-unit</scope>
+        <comment>Match on Windows XP User-Agent string</comment>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <reference>
+    <member>https://support.microsoft.com/en-us</member>
+  </reference>
+  <threatname>WindowsXP User-Agent</threatname>
+  <severity>informational</severity>
+  <direction>client2server</direction>
+  <comment>Windows XP web application traffic</comment>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>

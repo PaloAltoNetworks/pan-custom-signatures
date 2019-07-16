@@ -1,0 +1,38 @@
+# skillet preamble information used by panhandler
+# ---------------------------------------------------------------------
+# unique snippet name
+name: Detect_Active_FTP
+# label used for menu selection
+label: Detect Active FTP custom signature (Custome Thread ID 41062)
+description: This skillet adds HTTP Status Codes to Custom Signatures
+
+# type of device configuration
+# common types are panorama, panos, and template
+# https://github.com/PaloAltoNetworks/panhandler/blob/develop/docs/metadata_configuration.rst
+type: panos
+# preload static or default-based templates
+extends:
+
+# grouping of like snippets for dynamic menu creation in panhandler
+labels:
+  collection:
+    - Custom Vulnerability Signatures
+
+variables:
+  # This Skillet installs a custom threat signature that alerts on Active FTP
+  # It does so via the ftp-req-cmd, and looks for PORT. 
+  # There are no variables in this skillet.
+
+# ---------------------------------------------------------------------
+# end of preamble section
+
+# snippets section
+# ---------------------------------------------------------------------
+# snippets used for api configuration including xpath and element as file name
+# files will load in the order listed
+snippets:
+  - name: Detect_Active_FTP
+    xpath: /config/shared/threats/vulnerability
+    file: detect_active_ftp.xml
+# ---------------------------------------------------------------------
+# end of snippets section

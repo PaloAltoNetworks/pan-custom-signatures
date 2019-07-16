@@ -1,0 +1,38 @@
+<entry name="41061">
+  <signature>
+    <standard>
+      <entry name="vuln-sig-ftp-active">
+        <and-condition>
+          <entry name="AND 1">
+            <or-condition>
+              <entry name="OR 1">
+                <operator>
+                  <greater-than>
+                    <context>ftp-req-param-len</context>
+                    <value>0</value>
+                    <qualifier>
+                    <entry name="ftp-req-cmd">
+                  <value>PORT</value>
+                </entry>
+              </qualifier>
+            </greater-than>
+            </operator>
+            </entry>
+          </or-condition>
+        </entry>
+      </and-condition>
+    <order-free>no</order-free>
+    <scope>protocol-data-unit</scope>
+    <comment>custom vulnerability for detecting ftp active sessions</comment>
+    </entry>
+  </standard>
+  </signature>
+  <default-action><alert/></default-action>
+  <threatname>custom-vuln-ftp-active</threatname>
+  <severity>informational</severity>
+  <direction>client2server</direction>
+  <comment>custom vulnerability for detecting ftp active sessions</comment>
+  <affected-host>
+    <client>yes</client>
+  </affected-host>
+  </entry>
