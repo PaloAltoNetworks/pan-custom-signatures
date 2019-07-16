@@ -1,6 +1,6 @@
 # Custom Vulnerability Signatures Skillet
 
-This skillet adds a collection of custom vulnerabilit signatures:
+This skillet adds a collection of custom vulnerability signatures:
 * HTTP Response Codes (Thread ID 41000 - 59)
 * Detect XP User-Agent String (Thread ID 41060)
 * Detect Active FTP (Thread ID 41061)
