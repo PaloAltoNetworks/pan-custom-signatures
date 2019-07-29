@@ -1,5 +1,9 @@
 # Custom Vulnerability Signatures Skillet
 
+---
+Author: @packetalien
+---
+
 This skillet adds a collection of custom vulnerability signatures:
 * HTTP Response Codes (Thread ID 41000 - 59)
 * Detect XP User-Agent String (Thread ID 41060)
