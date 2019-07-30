@@ -3,7 +3,7 @@
 # unique snippet name
 name: Detect_Active_FTP
 # label used for menu selection
-label: Detect Active FTP custom signature (Custome Thread ID 41062)
+label: Detect Active FTP custom signature (Custom Threat ID 41062)
 description: This skillet adds a detection for active FTP to Custom Signatures
 
 # type of device configuration

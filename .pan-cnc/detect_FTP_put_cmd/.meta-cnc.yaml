@@ -3,7 +3,7 @@
 # unique snippet name
 name: Detect_FTP_put_cmd
 # label used for menu selection
-label: Detect FTP put command custom signature (Custome Thread ID 41062)
+label: Detect FTP put command custom signature (Custom Threat ID 41062)
 description: This skillet adds detection of FTP put command to Custom Signatures
 
 # type of device configuration

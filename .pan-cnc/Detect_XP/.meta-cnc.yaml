@@ -4,7 +4,7 @@
 name: XPUserAgentDetection
 # label used for menu selection
 label: XPUserAgentDetection
-description: This skillet adds the Windows XP user-agent string to Custom Signatures (Thread ID 41060)
+description: This skillet adds the Windows XP user-agent string to Custom Signatures (Custom Threat ID 41060)
 
 # type of device configuration
 # common types are panorama, panos, and template
