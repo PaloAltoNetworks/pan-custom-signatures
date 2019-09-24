@@ -1,7 +1,7 @@
 # Custom Vulnerability Signatures Skillet
 
 ---
-Author: @packetalien
+Curator: @packetalien
 ---
 
 This skillet adds a collection of custom vulnerability signatures:
