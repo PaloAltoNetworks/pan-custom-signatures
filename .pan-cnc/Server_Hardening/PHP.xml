@@ -1,0 +1,44 @@
+<entry name="41067">
+  <signature>
+    <standard>
+      <entry name="Hardening - PHP">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <pattern-match>
+                    <pattern>X-Powered-By: PHP</pattern>
+                    <context>http-rsp-headers</context>
+                    <negate>no</negate>
+                  </pattern-match>
+                </operator>
+              </entry>
+              <entry name="Or Condition 2">
+                <operator>
+                  <pattern-match>
+                    <pattern>Set-Cookie: PHPSESSID=</pattern>
+                    <context>http-rsp-headers</context>
+                    <negate>no</negate>
+                  </pattern-match>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>no</order-free>
+        <scope>protocol-data-unit</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>Hardening - PHP</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <comment>Improperly hardened PHP installation</comment>
+  <affected-host>
+    <server>yes</server>
+  </affected-host>
+</entry>

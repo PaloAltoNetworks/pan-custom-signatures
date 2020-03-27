@@ -1,0 +1,35 @@
+<entry name="41065">
+  <signature>
+    <standard>
+      <entry name="Hardening - IIS">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <pattern-match>
+                    <pattern>Server: Microsoft-IIS/</pattern>
+                    <context>http-rsp-headers</context>
+                    <negate>no</negate>
+                  </pattern-match>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>no</order-free>
+        <scope>protocol-data-unit</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>Hardening - IIS</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <comment>Improperly hardened IIS service</comment>
+  <affected-host>
+    <server>yes</server>
+  </affected-host>
+</entry>

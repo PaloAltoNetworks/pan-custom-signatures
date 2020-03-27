@@ -1,0 +1,53 @@
+<entry name="41070">
+  <signature>
+    <standard>
+      <entry name="Hardening - ASP">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <pattern-match>
+                    <pattern>X-AspNet-Version: </pattern>
+                    <context>http-rsp-headers</context>
+                    <negate>no</negate>
+                  </pattern-match>
+                </operator>
+              </entry>
+              <entry name="Or Condition 2">
+                <operator>
+                  <pattern-match>
+                    <pattern>X-Powered-By: ASP.NET</pattern>
+                    <context>http-rsp-headers</context>
+                    <negate>no</negate>
+                  </pattern-match>
+                </operator>
+              </entry>
+              <entry name="Or Condition 3">
+                <operator>
+                  <pattern-match>
+                    <pattern>Set-Cookie: ASP.NET_SessionId</pattern>
+                    <context>http-rsp-headers</context>
+                    <negate>no</negate>
+                  </pattern-match>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>no</order-free>
+        <scope>protocol-data-unit</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>Hardening - ASP</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <comment>Improperly hardened ASP installation</comment>
+  <affected-host>
+    <server>yes</server>
+  </affected-host>
+</entry>

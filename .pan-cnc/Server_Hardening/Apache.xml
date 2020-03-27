@@ -1,0 +1,35 @@
+<entry name="41064">
+  <signature>
+    <standard>
+      <entry name="Hardening - Apache">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <pattern-match>
+                    <pattern>Server: Apache/</pattern>
+                    <context>http-rsp-headers</context>
+                    <negate>no</negate>
+                  </pattern-match>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>no</order-free>
+        <scope>protocol-data-unit</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>Hardening - Apache</threatname>
+  <severity>informational</severity>
+  <direction>server2client</direction>
+  <comment>Improperly hardened Apache service</comment>
+  <affected-host>
+    <server>yes</server>
+  </affected-host>
+</entry>

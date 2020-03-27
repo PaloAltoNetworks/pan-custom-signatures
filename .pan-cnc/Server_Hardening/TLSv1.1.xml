@@ -1,0 +1,34 @@
+<entry name="41069">
+  <signature>
+    <standard>
+      <entry name="TLSv1.1">
+        <and-condition>
+          <entry name="And Condition 1">
+            <or-condition>
+              <entry name="Or Condition 1">
+                <operator>
+                  <equal-to>
+                    <value>770</value>
+                    <context>ssl-rsp-version</context>
+                  </equal-to>
+                </operator>
+              </entry>
+            </or-condition>
+          </entry>
+        </and-condition>
+        <order-free>no</order-free>
+        <scope>protocol-data-unit</scope>
+      </entry>
+    </standard>
+  </signature>
+  <default-action>
+    <alert/>
+  </default-action>
+  <threatname>TLS 1.1 Server Response</threatname>
+  <severity>informational</severity>
+  <direction>both</direction>
+  <affected-host>
+    <client>yes</client>
+    <server>yes</server>
+  </affected-host>
+</entry>

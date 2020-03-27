@@ -1,0 +1,39 @@
+name: server-hardening-signatures
+
+# label used for menu selection
+label: Detect improperly hardened servers
+
+description: |
+  This skillet applies the signatures to a NGFW to detect improperly hardened servers
+type: panos
+
+labels:
+  collection: 
+  - SecOps
+  - Threat Vulnerability IDs
+
+variables:
+
+snippets:
+  - name: asp
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/threats/vulnerability
+    file: ASP.xml
+  - name: apache
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/threats/vulnerability
+    file: Apache.xml
+  - name: iis
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/threats/vulnerability
+    file: IIS.xml
+  - name: nginix
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/threats/vulnerability
+    file: NGINX.xml
+  - name: php
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/threats/vulnerability
+    file: PHP.xml
+  - name: tlsv10
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/threats/vulnerability
+    file: TLSv1.0.xml
+  - name: tlsv11
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/threats/vulnerability
+    file: TLSv1.1.xml
+    
