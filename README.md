@@ -5,11 +5,20 @@ Curator: @packetalien
 ---
 
 This skillet adds a collection of custom vulnerability signatures:
-* HTTP Response Codes (Thread ID 41000 - 59)
-* Detect XP User-Agent String (Thread ID 41060)
-* Detect Active FTP (Thread ID 41061)
-* Detect FTP get CMD (Thread ID 41062)
-* Detect FTP put CMD (Thread ID 41063)
+* HTTP Response Codes (Threat ID 41000 - 59)
+* Detect XP User-Agent String (Threat ID 41060)
+* Detect Active FTP (Threat ID 41061)
+* Detect FTP get CMD (Threat ID 41062)
+* Detect FTP put CMD (Threat ID 41063)
+* Improperly hardened Apache service (Threat ID 41064)
+* Improperly hardened IIS service (Threat ID 41065)
+* Improperly hardened nginx service (Threat ID 41066)
+* Improperly hardened PHP installation (Threat ID 41067)
+* TLS 1.0 Server Response (Threat ID 41068)
+* TLS 1.1 Server Response (Threat ID 41069)
+* Improperly hardened ASP installation (Threat ID 41070)
+
+
 
 ---
 
